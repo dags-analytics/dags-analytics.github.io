@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Youtube"
+    url: https://youtube.com/channel/UCodxIOYMfJHqPcP9XMQNDyw
+  - title: "Posts"
+    url: /archive/
+  - title: "Programs"
+    url: /programs/
+  - title: "Github"
+    url: https://github.com/data-playground/data-playground.github.io
