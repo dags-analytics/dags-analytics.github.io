@@ -55,7 +55,7 @@
         if (elmnt.getAttribute("href").split("/")[0] == "") {
           elmnt.setAttribute('href', url_init.concat(elmnt.getAttribute("href")));
         } else {
-          elmnt.attr('target', '_blank');
+          elmnt.setAttribute('target', '_blank');
         }
         return false;
       }
