@@ -54,6 +54,8 @@
         let url_init = url_str.split("/").slice(0,4).join('/');
         if (elmnt.getAttribute("href").split("/")[0] == "") {
           elmnt.setAttribute('href', url_init.concat(elmnt.getAttribute("href")));
+        } else {
+          elmnt.attr('target', '_blank');
         }
         return false;
       }
